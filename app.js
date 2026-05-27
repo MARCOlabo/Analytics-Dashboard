@@ -7,7 +7,6 @@ import morgan from "morgan";
 import analyticsRoutes from "./routes/analyticsRoutes.js";
 
 dotenv.config();
-
 const app = express();
 
 app.use(cors());
